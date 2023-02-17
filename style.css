@@ -276,6 +276,28 @@
   display: flex;
   justify-content: space-between;
 }
+.form-title{
+  margin-top:50px ;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.input-item{
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.form-btn{
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff900e;
+  font-weight: 700;
+  border: none;
+  border-radius: 8px;
+}
 
 /* Footer part start */
 
