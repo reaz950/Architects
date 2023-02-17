@@ -1,0 +1,176 @@
+/* Google Fonts  */
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&family=Pacifico&family=Work+Sans:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+/* Main Css start */
+
+/* Hader part start */
+
+.header {
+  background: #ff900e1a;
+  padding-top: 50px;
+}
+
+.nav-part {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-part h2 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  font-family: "Work Sans";
+  text-align: center;
+  color: #131313;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu ul li {
+  list-style-type: none;
+  padding: 20px;
+  text-align: center;
+  transition: all linear 0.3s;
+  border-radius: 10px;
+}
+
+.menu ul li a {
+  display: flex;
+  text-decoration: none;
+  margin-left: 15px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  color: #424242;
+}
+
+.menu ul li:hover {
+  background-color: #ff900e;
+}
+
+.banner {
+  padding-top: 50px;
+  text-align: center;
+}
+.banner h1 {
+  font-family: Work Sans;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 75px;
+  text-align: center;
+}
+.banner p {
+  margin-top: 20px;
+  padding: 0 200px;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #727272;
+}
+
+.banner button,
+.feature-text button {
+  padding: 10px 20px;
+  margin: 30px 0;
+  background-color: #ff900e;
+  height: 64px;
+  width: 180px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  transition: all linear 0.3s;
+}
+.banner button:hover {
+  background-color: #424242;
+  color: #ff900e;
+}
+
+.banner img {
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+/* Feature part css start */
+.feature {
+  display: flex;
+  margin: 50px;
+}
+.feature-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.feature-img img {
+  width: 100%;
+}
+
+.feature-text {
+  padding: 50px;
+}
+
+.feature-text h2 {
+  font-size: 45px;
+  line-height: 53px;
+  font-family: Work Sans;
+  font-weight: 700;
+}
+
+.shadow-black {
+  color: #727272;
+}
+
+.orange {
+  color: orange;
+  display: block;
+}
+
+/* Responsive  */
+
+@media screen and (max-width: 576px) {
+  .nav-part {
+    flex-direction: row;
+    display: block;
+  }
+  .nav-part {
+    width: auto;
+  }
+  .menu ul {
+    display: block;
+  }
+
+  .banner{
+    width: auto;
+  }
+  .banner h1 {
+    font-size: 40px;
+
+  }
+  .banner p{
+    padding: 2px 10px;
+  }
+
+  }
