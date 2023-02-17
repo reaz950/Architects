@@ -385,4 +385,19 @@
     margin-bottom: 20px;
     margin-left: 20px;
   }
+  .sponspors-items {
+    display: flex;
+    flex-direction: column;
+  }
+  .sponspors-items img{
+    width: 80%;
+  }
+  .form textarea{
+    width: 50%;
+  }
+  .footer p{
+    width: 100%;
+    line-height: 40px;
+  }
+
 }
