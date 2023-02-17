@@ -207,16 +207,16 @@
 }
 /* Fact part css start  */
 
-.facts-title h3{
-  margin-top: 50px; 
+.facts-title h3 {
+  margin-top: 50px;
   font-family: Work Sans;
-font-size: 45px;
-font-weight: 700;
-line-height: 53px;
-letter-spacing: 0em;
-text-align: left;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 53px;
+  letter-spacing: 0em;
+  text-align: left;
 }
-.facts-title p{
+.facts-title p {
   font-family: Work Sans;
   font-size: 16px;
   font-weight: 400;
@@ -225,7 +225,6 @@ text-align: left;
   text-align: left;
   color: #727272;
   padding-right: 600px;
-  
 }
 .fact-items {
   display: flex;
@@ -241,19 +240,37 @@ text-align: left;
   border-radius: 8px;
 }
 
-.fact-item h2{
+.fact-item h2 {
   font-family: Work Sans;
   font-size: 45px;
   font-weight: 600;
 }
-.fact-item p{
+.fact-item p {
   font-family: Work Sans;
   font-size: 20px;
   font-weight: 600;
   line-height: 50px;
-
 }
 
+/* Sponsponser part css start */
+.sponspors-title {
+  margin-top: 150px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.sponspors-title h2 {
+  font-family: Work Sans;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 53px;
+  color: #131313;
+}
+.sponspors-title p {
+  font-family: Work Sans;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
 
 /* Responsive  */
 
@@ -311,17 +328,16 @@ text-align: left;
     width: 100%;
   }
 
-  .facts{
-    padding:0 50px;
+  .facts {
+    padding: 0 50px;
   }
-  .facts-title p{
+  .facts-title p {
     padding: 0px;
   }
   .fact-items {
     flex-direction: column;
-
   }
-  .fact-item{
+  .fact-item {
     margin-bottom: 20px;
     margin-left: 20px;
   }
